@@ -3,9 +3,8 @@
 [![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-777BB4?logo=php)](https://php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-5.7%2B-4479A1?logo=mysql)](https://mysql.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Live Preview](https://img.shields.io/badge/Live_Preview-Click_Here-blue?style=flat-square)](https://collegefeepayr.kesug.com)
 
-![College FeePayr Dashboard](https://via.placeholder.com/1200x600/3D5A80/FFFFFF?text=College+FeePayr+Dashboard) <!-- Replace with actual screenshot -->
+[![Live Preview](https://img.shields.io/badge/Live_Preview-Click_Here-blue?style=flat-square)](https://collegefeepayr.kesug.com)
 
 A **secure, scalable** PHP web application for colleges to manage student fee payments, generate receipts, and track financial records in real-time.
 

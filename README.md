@@ -6,7 +6,7 @@
 
 [![Live Preview](https://img.shields.io/badge/Live_Preview-Click_Here-blue?style=flat-square)](https://collegefeepayr.kesug.com)
 
-A **secure, scalable** PHP web application for colleges to manage student fee payments, generate receipts, and track financial records in real-time.
+A **secure, scalable** PHP web application for colleges and students to manage student fee payments, generate receipts, and track financial records in real-time.
 
 ---
 

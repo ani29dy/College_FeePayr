@@ -1,0 +1,147 @@
+.staff-close .active1 {
+    font-weight: 600;
+    color: #fff;
+}
+
+body.shrink input,
+body.shrink select {
+    width: 300px;
+}
+
+body.shrink .submit,
+body.shrink .clear {
+    width: 150px;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    margin-top: 2rem;
+    font-size: 45px;
+    text-shadow: 1px 1px 0px;
+    color: #003366;
+    text-align: center;
+    font-weight: 900;
+}
+
+.container {
+    margin: 2rem 8rem;
+    padding: 3rem;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: 0.5s;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: #003366;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 401;
+    transition: 0.3s;
+    text-shadow: 1px 0px 1px;
+}
+
+input,
+select {
+    /* box-shadow: 0 0 1px 1px rgb(0, 0, 0, 0.25); */
+    background-color: #fff;
+    margin-left: 10px;
+    padding: 0 1rem;
+    height: 40px;
+    width: 250px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: 0.5s;
+    color: #111;
+}
+
+.buttons {
+    /* justify-self: center; */
+    grid-column: 1 / 3;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit,
+.clear {
+    font-weight: bold;
+    width: 150px;
+    margin: 0 2rem;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.submit:hover,
+.clear:hover {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px 5px rgb(255, 255, 255, 0.25);
+}
+/* 
+.container::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, transparent 20%, blue);
+    opacity: .8;
+    border-radius: 50%;
+    top: 50%;
+    right: 5%;
+    z-index: 0;
+} */
+/* 
+form::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(135deg, transparent 20%, blue);
+    opacity: .8;
+    border-radius: 50%;
+    top: 20%;
+    left: 65%;
+    z-index: 0;
+} */
+
+select {
+    color: #111;
+}
+
+.search_form {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    padding: 0 3rem;
+    /* margin-bottom: 2rem; */
+    margin-top: 1rem;
+}
+
+.search_form .input-container {
+    margin: 0 -3rem 0 0;
+}
+
+.submit {
+    font-weight: bold;
+}

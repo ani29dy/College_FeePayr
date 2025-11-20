@@ -1,0 +1,102 @@
+main {
+    flex: 1;
+    padding: 2rem;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 175, 255, 0.05);
+}
+
+/* Main */
+
+.container {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    /* box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.25); */
+    display: grid;
+    grid-template-columns: 430px 430px;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+}
+
+.box {
+    padding: 0 1rem;
+    background-color: #fff;
+    color: #111;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #e4e2f5; */
+    cursor: pointer;
+    text-align: center;
+}
+
+.icon-1 {
+    margin: 0 3rem 0 0;
+    box-shadow: 0 0 3px 3px rgb(0, 0, 0, 0.075);
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .icon-1 i {
+    color: #ffffff;
+    font-size: 55px;
+    text-align: center;
+}
+
+.box h1 {
+    font-size: 30px;
+}
+
+.box p {
+    font-size: 30px;
+    font-weight: 401;
+}
+
+.copyright {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.student {
+    background: linear-gradient(90deg, orange, rgb(229, 203, 155));
+}
+
+.teacher {
+    background: linear-gradient(90deg, rgb(1, 165, 1), rgb(146, 186, 146));
+}
+
+.courses {
+    background: linear-gradient(90deg, #0096FF, #a2bdcf);
+}
+
+.batchs {
+    background: linear-gradient(90deg, #5800FF, #948ba5);
+}
+
+.graph-container {
+    display: grid;
+    grid-template-columns: 430px 430px;
+    grid-gap: 30px;
+    margin: 0 2rem;
+    padding: 0 2rem;
+}
+
+
+.graph {
+    box-shadow: 0 0 2px 2px rgb(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 2rem;
+    /* background-color: #e5eef5; */
+    background-color: #fff;
+}
